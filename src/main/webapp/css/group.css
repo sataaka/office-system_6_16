@@ -1,0 +1,115 @@
+
+.m-3{
+	color:red;
+}
+
+.error{
+	color:red;
+}
+
+.p-3{
+	width:100%;	min-height:100vh;
+	background-color: #EEF4CE;
+  	background-image:
+    	radial-gradient(#FFFFFF 30%, transparent 30%),
+    	radial-gradient(#FFFFFF 20%, transparent 20%);
+  	background-size: 40px 40px;
+  	
+  
+}
+
+.table{
+	border:1px solid #000000;
+	margin-left: 1em;
+	width: 98%;
+	
+}
+
+.d-flex{
+	margin-left: 1em;
+}
+
+.submit{
+	background-color:#EBDAD1;
+	color:white;
+	border-radius: 20px;
+	border-style: solid; border-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.delete{
+	background-color:red;
+	color:white;
+	border-radius: 20px;
+	border-style: solid; border-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.text{
+	padding-left: 35%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.text-group{
+	padding-left: 39%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size:20px
+}
+
+.textgroupName{
+	padding-left: 38%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	
+}
+
+.text-groupInsert{
+	padding-left: 33%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size:20px
+}
+
+.text-groupNameInsert{
+	padding-left: 39%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size:30px
+}
+
+.button1{
+	background-color:#E25207;
+	color:white;
+	background-attachment: fixed;
+	border-radius: 10px;
+	border-style: solid; border-color: white;
+}
+
+.button{
+	border-radius: 8px;
+	margin:7px;
+	background-color:#AACC88;
+	color:white;
+}
+
+.back-color{
+	width:100%;	height: 100%;
+	width: 100vw; min-height:100vh;
+	background-attachment: fixed;
+	background-color: #EEF4CE;
+  	background-image:
+    	radial-gradient(#FFFFFF 30%, transparent 30%),
+    	radial-gradient(#FFFFFF 20%, transparent 20%);
+  	background-size: 40px 40px;
+}
+
+.input{
+	border-radius: 10px;
+	width:220px;
+	border:1px solid #000000;
+}
+

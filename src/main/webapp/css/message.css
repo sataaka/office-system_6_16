@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.table{
+	border:1px solid #000000;
+	margin-left: 1em;
+	width: 98%;
+	
+}
+
+.back-color-GroupAdd{
+	width:100%;	min-height:100vh;
+	
+	
+	background-color: #EEF4CE;
+  	background-image:
+    	radial-gradient(#FFFFFF 30%, transparent 30%),
+    	radial-gradient(#FFFFFF 20%, transparent 20%);
+  	background-size: 40px 40px;
+  	
+	
+}
+
+.text{
+	padding-left: 35%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.messageText{
+	padding-left: 80%;
+	padding-top: 30px;
+	
+	
+}
+
+.messageListText{
+	font-size: 20px;
+	font-weight:bold;
+	padding-right: 15%;
+	padding-bottom: 15px;
+}
+
+
+.button{
+	width:100%;
+}
+
+.error{
+	color:red;
+}
+
+.button{
+	border-radius: 8px;
+	margin:7px;
+	background-color:#AACC88;
+	color:white;
+}
+
+.button1{
+	background-color:#E25207;
+	color:white;
+	border-radius: 10px;
+	border-style: solid; border-color: white;
+}

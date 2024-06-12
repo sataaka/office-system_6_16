@@ -1,0 +1,42 @@
+
+
+.newDisplay1 {
+	height: 55px;
+	background-color: #CDA16F;
+}
+
+.newDisplay2 {
+	background-color: #FDFCE1;
+	width: 100vw; min-height:100vh;
+  	width: 100vw; min-height:100vh;
+}
+
+.py-1 {
+	
+	padding-left: 10px;
+}
+
+.input{
+	
+	border-radius: 10px;
+	width:220px;
+	border:1px solid #000000;
+
+}
+
+.selectBox{
+	border-radius: 5px;
+}
+
+.newButton{
+	background-color:#EBDAD1;
+	border-radius: 5px;
+	border:1px solid #000000;	
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.error{
+	color: red;
+}
+

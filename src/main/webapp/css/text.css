@@ -1,0 +1,92 @@
+
+.background-color{
+	width: 100%; height: 100%;
+  	width: 100vw; min-height:100vh;
+	background-color: #F0F4C7;
+	background-image: 
+	 linear-gradient(-90deg, #F6FCFD 50%, transparent 50%);
+	background-size: 20px 30px;
+}
+
+.text-center{
+	
+	padding-top:20px;
+	padding-left:20px;
+}
+
+.group{
+	padding: 0px 60px 0px 0;
+	border:2px solid #000000;
+	font-size:20px;
+	text-align: center;
+	width:95%;
+	height:30%;
+}
+
+.title{
+	padding: 0px 60px 0px 0;
+	
+	text-align: center;
+	width:95%;
+	height:27%;
+	border:1px solid #000000;
+}
+
+.createdDate{
+	padding: 0px 60px 0px 0;
+	
+	text-align: center;
+	
+	width:95%;
+	height:27%;
+	border:1px solid #000000;
+}
+
+.textForm{
+	width:95%;
+    height:500px;
+    white-space:pre-wrap;
+    border:1px solid #000000;
+}
+
+
+.text-secondary{
+	background-color:#EBDAD1;
+	border-radius: 20px;
+	border-style: solid; border-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size:20px;
+}
+
+.createdDatetime{
+	padding: 0px 570px 0px 0;
+	text-align: center;
+}
+
+.sendTextForm{
+    border:1px solid #000000;
+    font-weight:normal;
+    white-space:pre-line;
+}
+
+b{
+	font-size:30px;
+	padding: 0px 60px 0px 0;
+}
+
+
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+   height: auto;
+    opacity: 1;
+}
+
