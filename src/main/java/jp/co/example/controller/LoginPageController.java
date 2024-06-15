@@ -43,7 +43,7 @@ public class LoginPageController {
 	@Autowired
 	UserGroupService userGroupService;
 	//このコントロールクラスで、URLをマッピング、下記メソッドを紐でけるloginPageへ推移する
-	@RequestMapping({"/", "/login"})
+	@RequestMapping({"/login"})
 	public String login(@ModelAttribute("result") LoginPageForm form, Model model) {
 		
 			List<Users> userId = usersService.findByUserId();

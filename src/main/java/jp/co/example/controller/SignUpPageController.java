@@ -37,7 +37,7 @@ public class SignUpPageController {
 	SignUpPageService signUpPageService ;
 	
 	@RequestMapping({"/signUpPage"})
-	public String login(@ModelAttribute("result") LoginPageForm form,Model model) {
+	public String signUp(@ModelAttribute("result") LoginPageForm form,Model model) {
 		
 		List<Role> roleList = signUpPageService .findbyRoleId();
 
