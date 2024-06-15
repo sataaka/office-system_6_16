@@ -36,7 +36,7 @@ public class SignUpPageController {
 	@Autowired
 	SignUpPageService signUpPageService ;
 	
-	@RequestMapping({"/", "/signUpPage"})
+	@RequestMapping({"/signUpPage"})
 	public String login(@ModelAttribute("result") LoginPageForm form,Model model) {
 		
 		List<Role> roleList = signUpPageService .findbyRoleId();
