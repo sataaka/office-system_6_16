@@ -18,7 +18,7 @@
 	<div class="background-color-Top">
 		<!-- ユーザー名が表示される -->
 		<div class="px-4">
-			<div class="pt-3">ようこそ<b>${fn:escapeXml(role.userName)}さん</b></div>
+			<div class="pt-3">ようこそ<b>${fn:escapeXml(users.userName)}さん</b></div>
 		</div>
 	
 	
